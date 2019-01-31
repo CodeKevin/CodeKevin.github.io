@@ -1,6 +1,6 @@
 # iOS Develope Tips
 ## ISSUES
-### 1.issues:image not found. solve:Embedded Binaries.
+### 1.image not found. solve:Embedded Binaries.
 ## Cocoapods tips
 ### 1.Pod common
     + cache         Manipulate the CocoaPods cache
