@@ -1,5 +1,5 @@
 # iOS Develope Tips
-## ISSUES
+## Issues
 ### 1.image not found. solve:Embedded Binaries.
 ## Cocoapods tips
 ### 1.Pod common
@@ -21,17 +21,24 @@
     + try           Try a Pod!
     + update        Update outdated project dependencies and create new Podfile.lock
 ### 2.Create a pod lib (Private)
-- First,pod lib create LIB_NAME
-- When project is created,you should replace ReplaceMe.m by your files.
-- Modfiy LIB_NAME.podspec.(summary,homepage,description,source...)
-- Create git repo private,upload your lib to this repo.
-- pod update
-- pod lib lint 
-- Local lib push remote origin master & you can make tag version
-- pod spec lint
-- Make a pod repo on git.
-- pod repo add POD_REPO_NAME POD_GIT_URL
-- pod repo push POD_REPO_NAME SPEC_NAME.podspec
-- Success.You can use podlib in project.
-- Write cocoapods source & your custom spec in .podfile.
-- If lib display multiple,you should pod 'LIB_NAME',:git=>'SOURCE_URL' 
+#### 1.create lib first project
+    pod lib create LIB_NAME
+#### 2.When project is created,you should replace ReplaceMe.m by your files.
+#### 3.Modfiy LIB_NAME.podspec.(summary,homepage,description,source...)
+#### 4.Create git repo private,upload your lib to this repo.
+#### 5.update & liblint
+    pod update
+    pod lib lint 
+#### 6.Local lib push remote origin master & you can make tag version
+#### 7.spec lint
+    pod spec lint
+#### 8.Make a pod repo on git.
+#### 9.pod add & push
+    pod repo add POD_REPO_NAME POD_GIT_URL
+    pod repo push POD_REPO_NAME SPEC_NAME.podspec
+#### 10.Success.You can use podlib in project.
+#### 11.Write cocoapods source & your custom spec in .podfile.
+#### 12.If lib display multiple,you should pod 'LIB_NAME',:git=>'SOURCE_URL' 
+## Git tips
+### 1.remove remote repo file or dir,local file will lose git record. 
+    git rm -r --cache (file or path)
