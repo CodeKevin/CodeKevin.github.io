@@ -42,3 +42,5 @@
 ## Git tips
 ### 1.remove remote repo file or dir,local file will lose git record. 
     git rm -r --cache (file or path)
+### 2.ignore check specific file or path
+    git update-index --assume-unchanged (file or path)
