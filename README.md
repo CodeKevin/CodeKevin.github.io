@@ -2,8 +2,7 @@
 ## Issues
 ### 1.If found images of Library not found. solve:Embedded Binaries.
 ### 2.Two Mac A and B,A can upload app to store successfully,but B cannot.
-### slove:You should use Apple developer account to login in and download the app Distribution .mobileprovision on B mac,
-### then,double tap this file.Next,export the .p12 file from A mac to B,and double tap p.12 on B mac.Everything will be OK.
+### slove:You should use Apple developer account to login in and download the app Distribution .mobileprovision on B mac,then,double tap this file.Next,export the .p12 file from A mac to B,and double tap p.12 on B mac.Everything will be OK.
 
 ### 1.If found images of Library not found. solve:Embedded Binaries.
 ## Cocoapods tips
