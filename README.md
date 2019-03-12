@@ -24,6 +24,7 @@
     + trunk         Interact with the CocoaPods API (e.g. publishing new specs)
     + try           Try a Pod!
     + update        Update outdated project dependencies and create new Podfile.lock
+    
 ### 2.Create a pod lib (Private)
 #### 1.create lib first project
     pod lib create LIB_NAME
